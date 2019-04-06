@@ -1,4 +1,58 @@
 // COLOR VARIABLES
-
+$main-color: #342b2b;
+$main-color-light: #ece5e1;
+$accent-color: #91171d;
 
 // FONT VARIABLES
+
+$main-font: 'Cormorant', serif;
+$sub-font: 'Open Sans', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: $main-color;
+  font-family: $main-font;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.sprite {
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-icon-bag {
+  width: 17px;
+  height: 20px;
+  background-position: -5px -5px;
+}
+
+.sprite-icon-search {
+  width: 20px;
+  height: 20px;
+  background-position: -5px -35px;
+}
+
+.sprite-icon-user {
+  width: 17px;
+  height: 20px;
+  background-position: -5px -65px;
+}
